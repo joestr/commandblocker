@@ -1,9 +1,9 @@
 # Here you can modify the message a user receives if he executes a blocked command :)
 # WARNING: You must use two '' instead of only one ' if you want to use this character in your custom message - Otherwise the plugin won‘t work!
-Message: '&cI''m sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.'
+message: '&cI''m sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.'
 
-# Commands to be blocked: (It can be bypassed with the "cmd_block.bypass"-permission)
-List:
+# Commands to be blocked: (It can be bypassed with the "commandblocker.bypass"-permission)
+blocked_commands:
   - '?'
   - 'pl'
   - 'plugins'
